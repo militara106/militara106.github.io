@@ -325,7 +325,11 @@ a:hover{
 }
 
 /* --------------- CONTACT -------------*/
-input[type=submit]{
+#contact{
+    text-align: center;
+}
+
+/* input[type=submit]{
     background: #4aaaa5;
     color: white;
     width: 5rem;
@@ -352,7 +356,7 @@ input[type=text], select, textarea{
     resize: vertical;
     text-align: left;
     margin-bottom: 1rem;
-}
+} */
 
 @media only screen and (max-width: 600px) {
 
