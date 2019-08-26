@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Alexander Militar
+    </title>
+
+    <!-- Font Link -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Nanum+Gothic&display=swap" rel="stylesheet">
+    <!--CSS Reset-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!--CSS LINK-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- Background Rain Effect -->
+    <canvas id="rainBG"></canvas>
+
+    <!-- Side Buttons -->
+    <div class="button leftbtn">
+        <span class="leftArrow leftSlide arrow"></span>
+        <span id="leftbtn" class="leftSlide"></span>
+    </div>
+    <div class="button rightbtn">
+        <span id="rightbtn" class="rightSlide"></span>
+        <span class="rightArrow rightSlide arrow"></span>
+    </div>
+
+    <!-- Start Grid Container -->
+    <div id="gridContainer">
+
+        <!-- Navigation -->
+        <div class="topBar">
+            <h1>Alexander Militar</h1>
+
+            <!-- Shortcuts -->
+            <div id="shortcuts">
+                <span id="quick">Quick Nav</span>
+                <span class="button" id="aboutbtn">About</span>
+                <span class="button" id="portfoliobtn">Portfolio</span>
+                <span class="button" id="contactbtn">Contact Me</span>
+            </div>
+
+        </div>
+
+        <!-- About Me -->
+        <div class="main pos0" id="about" data="About">
+            <h1>About</h1>
+            <p>
+                <image src="assets/images/profile.jpg" id="profile" alt="Me" />
+                <!--FILLER TEXT-->
+                According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too
+                small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't
+                care what humans think is impossible. Yellow, black. Yellow, black. Yellow, black. Yellow, black. Ooh,
+                black and yellow! Let's shake it up a little.
+            </p>
+            <p>
+                Barry! Breakfast is ready! Coming! Hang on a second. Hello? - Barry? - Adam? - Oan you believe this is
+                happening? - I can't. I'll pick you up. Looking sharp. Use the stairs. Your father paid good money for
+                those. Sorry. I'm excited. Here's the graduate. We're very proud of you, son. A perfect report card, all
+                B's. Very proud.
+            </p>
+
+            <!-- Stats -->
+            <div id="statBars">
+                <div class="bar">JavaScript Skill</div><span id="jsXP"></span>
+                <div class="bar">CSS Skill</div><span id="cssXP"></span>
+                <div id="bar">HTML Skill</div><span id="htmlXP"></span>
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+        <div class="main pos1" id="portfolio" data="Portfolio">
+            <h1>Portfolio</h1>
+            <div class="portfolioGrid">
+                <!-- Project1 -->
+                <div id="project1" class="portfolioPic">
+                    <span class="portfolioText">PARALLEL</span>
+                    <span class="portfolioTooltip">Description of project filler text. Description of project filler
+                        text. Description of project filler text. Description of project filler text.
+                        <br>
+                        <a href="https://militara106.github.io/PARALLEL/">Visit Page</a>
+                        <br>
+                        <a href="https://github.com/militara106/PARALLEL">Visit Github</a>
+                    </span>
+                </div>
+                <!-- Project2 -->
+                <div id="project2" class="portfolioPic">
+                    <span class="portfolioText">FF Trivia</span>
+                    <span class="portfolioTooltip">Description of project filler text. Description of project filler
+                        text. Description of project filler text. Description of project filler text.
+                        <br>
+                        <a href="https://militara106.github.io/Trivia-Game/">Visit Page</a>
+                        <br>
+                        <a href="https://github.com/militara106/Trivia-Game">Visit Github</a>
+                    </span>
+
+                </div>
+                <!-- Project3 -->
+                <div id="project3" class="portfolioPic">
+                    <span class="portfolioText">Giftastic</span>
+                    <span class="portfolioTooltip">Description of project filler text. Description of project filler
+                        text. Description of project filler text. Description of project filler text.
+                        <br>
+                        <a href="https://militara106.github.io/Giftastic/">Visit Page</a>
+                        <br>
+                        <a href="https://github.com/militara106/Giftast">Visit Github</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="main pos2" id="contact" data="Contact Me">
+            <h1>Contact Me</h1>
+            <form>
+                <label for="name">Name</label>
+                <br>
+                <input type="text" name="name" placeholder="John Smith">
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" name="email" placeholder="example@gmail.com">
+                <br>
+                <label for="message">Message</label>
+                <br>
+                <textarea name="message" style="height: 300px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- JS link -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
