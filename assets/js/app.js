@@ -193,7 +193,8 @@ window.onload = function () {
         })
     }
 
-    renderDrop();
+    // Disabled for performance
+    // renderDrop();
     // Render Drops
     function renderDrop() {
         requestAnimationFrame(renderDrop);
